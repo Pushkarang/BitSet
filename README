@@ -1,0 +1,14 @@
+BitSet 
+	
+	This is a different approach for implementing Set by setting indivisual bits of integer variable.One integer variable is of size 32 bits so  by setting bits of int variable we can store 32 consecutive numbers starting from index i.
+	
+	Each node contains i (index),s (int variable) .These node are linked by the pointer *next which points to the next node.
+Nodes are linked in increasing order of index.
+
+---------------------------
+Runnig bitset
+
+	$   gcc bitset.c
+	$   ./a.out
+
+
